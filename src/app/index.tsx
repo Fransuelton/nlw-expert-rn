@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import { View, FlatList, SectionList, Text } from "react-native";
 import { Link } from "expo-router";
 
-import { useCartStore } from "./stores/cart-store";
+import { useCartStore } from "@/stores/cart-store";
 import { CATEGORIES, MENU } from "@/utils/data/products";
 
 import { Header } from "@/components/header";

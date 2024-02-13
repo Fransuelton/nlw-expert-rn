@@ -2,7 +2,7 @@ import { Image, Text, View } from "react-native";
 import { Feather } from "@expo/vector-icons";
 import { useLocalSearchParams, useNavigation } from "expo-router";
 
-import { useCartStore } from "../stores/cart-store";
+import { useCartStore } from "@/stores/cart-store";
 
 import { PRODUCTS } from "@/utils/data/products";
 import { formatCurrency } from "@/utils/functions/format-currency";
